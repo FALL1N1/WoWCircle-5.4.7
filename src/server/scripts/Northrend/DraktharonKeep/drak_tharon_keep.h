@@ -1,0 +1,37 @@
+#ifndef DEF_DRAK_THARON_H
+#define DEF_DRAK_THARON_H
+
+#define MAX_BOSSES 4
+
+enum Data
+{
+    DATA_TROLLGORE,
+    DATA_NOVOS,
+    DATA_DRED,
+    DATA_THARON_JA,
+
+    DATA_KING_DRED_ACHIEV,
+
+    DATA_NOVOS_CRYSTAL_1,
+    DATA_NOVOS_CRYSTAL_2,
+    DATA_NOVOS_CRYSTAL_3,
+    DATA_NOVOS_CRYSTAL_4
+};
+
+enum Creatures
+{
+    NPC_TROLLGORE           = 26630,
+    NPC_NOVOS_THE_SUMMONER  = 26631,
+    NPC_KING_DRED           = 27483,
+    NPC_PROPHET_THARON_JA   = 26632,
+};
+
+enum GameObjects
+{
+    GO_NOVOS_CRYSTAL_1  = 189299,
+    GO_NOVOS_CRYSTAL_2  = 189300,
+    GO_NOVOS_CRYSTAL_3  = 189301,
+    GO_NOVOS_CRYSTAL_4  = 189302,
+};
+
+#endif
